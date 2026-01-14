@@ -4,6 +4,7 @@ topics included:
 - Variables and data types.
 - Operators and conditional statements.
 - Loops
+- Pattern Printing Programs
 - Functions
 - Arrays
 - Pointers and structures
