@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
  
-    int n;                                 //Pyramid for numbers 
+    int n;                                 //Pyramid for Stars 
     printf("Enter number of rows : ");
     scanf("%d",&n);
     
@@ -19,7 +19,7 @@ int main(){
         printf("\n");
     }
  
-    int m;                                 // pyramid for numbers
+    int m;                                 // Pyramid for Numbers
     printf("Enter number of rows : ");
     scanf("%d",&m);
          
@@ -30,6 +30,25 @@ int main(){
         }
         for(int k=1; k<=2*i-1; k++){           // for star        
             printf("%d ", k);
+            
+        }
+
+        printf("\n");
+    }
+
+    int o;                                 // Pyramid for Alphabets
+    printf("Enter number of rows : ");
+    scanf("%d",&o);
+         
+    for(int i=1; i<=o; i++){
+         char ch = 'A';
+        for(int j=1; j<=o-i; j++){          // for spaces
+            printf("  ");
+        }
+        for(int k=1; k<=2*i-1; k++){           // for star        
+            
+            printf("%c ", ch);
+            ch++;
             
         }
 
