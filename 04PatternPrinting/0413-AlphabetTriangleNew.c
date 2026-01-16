@@ -5,7 +5,6 @@ int main(){
     printf("Enter number of rows : ");
     scanf("%d",&n);
     
-    //int a;
     for(int i=1; i<=n; i++){
         char ch = 'A';
         for(int j=1; j<=n-i; j++){     // for spaces
