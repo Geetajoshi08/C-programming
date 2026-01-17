@@ -15,7 +15,7 @@ int main(){
     printf("Enter 2st number : ");
     scanf("%d",&m);
     
-    swap(&n,&m);        // storing address so that the values are stofred by the address and not bye vlaues in the pointers
+    swap(&n,&m);        // storing address so that the values are stofred by the address and not bye vlaues in the pointers 
 
     printf("Swaped numbers are : %d, %d ",n,m);
 
