@@ -10,3 +10,4 @@ topics included:
 - Pointers and structures
 - File handling
 A mini project is also included to practice the concepts.
+- Added new programs on daily basis.
